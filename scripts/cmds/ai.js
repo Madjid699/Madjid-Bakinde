@@ -1,11 +1,11 @@
 const axios = require('axios');
 
 const Prefixes = [
-  '/ai', 
-  'titus',
-  'nemo',
+  'Salut', 
+  'iron',
+  'rhude',
   'ai',
-  'ask',
+  'cc',
 ];
 
 module.exports = {
@@ -29,7 +29,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Bonjour, comment puis-je vous aidez ? 💖");
+        await message.reply("Bonjour je suis le serviteur de Madjid *Percy*, comment puis-je vous aidez ? ☺️");
         return;
       }
 
